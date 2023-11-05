@@ -45,8 +45,28 @@ body {
   color:white;
   background-color: black;
   border: none;
+  transition: all 0.2s ease;
+}
+
+.login-btn:hover{
+  background-color: rgb(72, 72, 72);
+  box-shadow: 2px 5px 3px #888888;
+  transition: all 0.2s ease;
+  border: none;
 }
 
 .login-div{
-  margin:auto;
+  margin:10% 30%;
+  
 }
+
+.login-input{
+  margin-bottom: 5px ;
+  transition: all 0.2s ease;
+}
+
+.login-input:hover{
+  box-shadow: 2px 5px 3px #888888;
+  transition: all 0.2s ease;
+}
+
