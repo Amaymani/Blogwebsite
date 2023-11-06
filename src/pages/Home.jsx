@@ -1,14 +1,12 @@
 import React from "react";
-import "../index.css";
-import Landing from "../Components/Landing";
 import Navbar from "../Components/Navbar";
 
 function Home() {
   return (
-    <div>
-      <Navbar/>
-      <Landing/>
-    </div>
+    <>
+    <Navbar />
+    Landed on home
+    </>
   );
 }
 export default Home;
